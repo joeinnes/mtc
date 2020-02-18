@@ -1,9 +1,9 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import styles from './AboutOverlay.module.css'
-import { ReactComponent as Cheese } from '../assets/cheese.svg'
-import { ReactComponent as Meat } from '../assets/meat.svg'
-import { ReactComponent as Plant } from '../assets/plant.svg'
+import { ReactComponent as Cheese } from './assets/cheese.svg'
+import { ReactComponent as Meat } from './assets/meat.svg'
+import { ReactComponent as Plant } from './assets/plant.svg'
 
 const AboutOverlay = props => {
   return (

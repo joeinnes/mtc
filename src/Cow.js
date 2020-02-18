@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './Cow.module.css'
 import PropTypes from 'prop-types'
-import { ReactComponent as CowImg } from '../assets/cow.svg'
+import { ReactComponent as CowImg } from './assets/cow.svg'
 
 const Cow = props => {
   const duration = Math.random() * 15 + 5

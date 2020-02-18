@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './Chicken.module.css'
 import PropTypes from 'prop-types'
-import { ReactComponent as ChickenImage } from '../assets/chicken.svg'
+import { ReactComponent as ChickenImage } from './assets/chicken.svg'
 
 const Chicken = props => {
   const duration = Math.random() * 15 + 5

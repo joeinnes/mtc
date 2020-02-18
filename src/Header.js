@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import styles from './Header.module.css'
-import { ReactComponent as CowFace } from '../assets/cow-face.svg'
+import { ReactComponent as CowFace } from './assets/cow-face.svg'
 
 const Header = props => {
   return (
