@@ -47,6 +47,19 @@ const AboutOverlay = props => {
           mtc@joeinn.es
         </a>
       </p>
+      <p>
+        All emojis designed by{' '}
+        <a href="https://openmoji.org/" className={styles.link}>
+          OpenMoji
+        </a>{' '}
+        – the open-source emoji and icon project. Licence:{' '}
+        <a
+          href="https://creativecommons.org/licenses/by-sa/4.0/#"
+          className={styles.link}
+        >
+          CC BY-SA 4.0
+        </a>
+      </p>
       <button
         className={styles.closeoverlay}
         onClick={() => props.clickHandler()}
