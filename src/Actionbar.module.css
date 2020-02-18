@@ -1,0 +1,21 @@
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  height: 15vh;
+  display: flex;
+}
+
+.button {
+  flex-grow: 1;
+  border: 0;
+  background-color: none;
+  width: 33vw;
+  font-size: max(16px, min(5vh, 15vw));
+  cursor: pointer;
+}
+
+.buttonImg {
+  max-width: 33vw;
+}

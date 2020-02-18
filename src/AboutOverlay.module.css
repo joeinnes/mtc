@@ -1,0 +1,40 @@
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  min-height: 100vh;
+  background-color: #483c46;
+  color: #ccc;
+  padding: 1rem;
+  overflow-y: scroll;
+  z-index: 1;
+  line-height: 2em;
+}
+
+.closeoverlay {
+  padding: 1em;
+  border: 2px solid #ccc;
+  color: #ccc;
+  border-radius: 1rem;
+  cursor: pointer;
+  margin-bottom: 3em;
+}
+
+.closeoverlay:hover {
+  padding: 1em;
+  border: 2px solid #ccc;
+  border-radius: 1rem;
+  color: #483c46;
+  background-color: #ccc;
+}
+
+.link {
+  color: #ccc;
+}
+
+.icon {
+  height: 2em;
+  vertical-align: middle;
+}

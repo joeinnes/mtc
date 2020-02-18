@@ -1,0 +1,17 @@
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 15vh;
+  min-height: 100px;
+}
+
+.title {
+  font-size: max(16px, min(7.5vh, 15vw));
+}
+
+.icon {
+  height: max(16px, min(7.5vh, 15vw));
+  cursor: pointer;
+}
